@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remote Control Guest</string>
+    <string name="accessibility_service_description">Allows remote control of this device through touch gestures and key events</string>
+    <string name="start_remote_control">Start Remote Control</string>
+    <string name="stop_remote_control">Stop Remote Control</string>
+    <string name="session_code">Session Code: %s</string>
+    <string name="controller_connected">Controller Connected</string>
+    <string name="waiting_for_controller">Waiting for Controller</string>
+    <string name="remote_control_inactive">Remote Control Inactive</string>
+    <string name="grant_permissions">Please grant all required permissions</string>
+    <string name="screen_capture_denied">Screen capture permission denied</string>
+    <string name="overlay_permission_required">Overlay permission is required for remote control</string>
+    <string name="accessibility_settings">Accessibility Settings</string>
+</resources>

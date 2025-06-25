@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    
+    <!-- Background circle with gradient effect -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M36,6C19.44,6 6,19.44 6,36s13.44,30 30,30 30,-13.44 30,-30S52.56,6 36,6z"/>
+    
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#764ba2"
+        android:pathData="M36,9C21.09,9 9,21.09 9,36s12.09,27 27,27 27,-12.09 27,-27S50.91,9 36,9zM36,60C22.19,60 12,49.81 12,36S22.19,12 36,12s24,10.19 24,24S49.81,60 36,60z"/>
+    
+    <!-- Phone/device icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,21H24c-2.49,0 -4.5,2.01 -4.5,4.5v21c0,2.49 2.01,4.5 4.5,4.5h24c2.49,0 4.5,-2.01 4.5,-4.5v-21C52.5,23.01 50.49,21 48,21zM45,45H27V27h18V45z"/>
+    
+    <!-- Remote control signal -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M36,30c-1.65,0 -3,1.35 -3,3s1.35,3 3,3 3,-1.35 3,-3S37.65,30 36,30z"/>
+    
+    <!-- Signal waves -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M28.5,33c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5S29.33,33 28.5,33z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M43.5,33c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5S44.33,33 43.5,33z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M32.25,37.5c-0.41,0 -0.75,0.34 -0.75,0.75s0.34,0.75 0.75,0.75 0.75,-0.34 0.75,-0.75S32.66,37.5 32.25,37.5z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M39.75,37.5c-0.41,0 -0.75,0.34 -0.75,0.75s0.34,0.75 0.75,0.75 0.75,-0.34 0.75,-0.75S40.16,37.5 39.75,37.5z"/>
+</vector>

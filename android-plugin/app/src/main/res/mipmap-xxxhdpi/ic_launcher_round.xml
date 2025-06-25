@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    
+    <!-- Perfect circle background -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M96,8C47.4,8 8,47.4 8,96s39.4,88 88,88 88,-39.4 88,-88S144.6,8 96,8z"/>
+    
+    <!-- Phone/device icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M128,48H64c-6.63,0 -12,5.37 -12,12v72c0,6.63 5.37,12 12,12h64c6.63,0 12,-5.37 12,-12V60C140,53.37 134.63,48 128,48zM120,128H72V64h48V128z"/>
+    
+    <!-- Remote control signal -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M96,72c-4.42,0 -8,3.58 -8,8s3.58,8 8,8 8,-3.58 8,-8S100.42,72 96,72z"/>
+    
+    <!-- Signal waves -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M80,80c-2.21,0 -4,1.79 -4,4s1.79,4 4,4 4,-1.79 4,-4S82.21,80 80,80z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M112,80c-2.21,0 -4,1.79 -4,4s1.79,4 4,4 4,-1.79 4,-4S114.21,80 112,80z"/>
+</vector>

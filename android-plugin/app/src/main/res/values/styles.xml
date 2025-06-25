@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#667eea</item>
+        <item name="colorPrimaryDark">#764ba2</item>
+        <item name="colorAccent">#2196F3</item>
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="ButtonDanger" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_danger</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+</resources>

@@ -1,0 +1,78 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Build outputs
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Android
+android-plugin/app/build/
+android-plugin/.gradle/
+android-plugin/local.properties
+android-plugin/app/release/
+android-plugin/app/debug/
+*.apk
+*.aab
+.DS_Store
+
+# All build directories
+**/build/
+**/.gradle/
+
+# React Native
+mobile-app/node_modules/
+mobile-app/android/app/build/
+mobile-app/android/.gradle/
+mobile-app/ios/build/
+mobile-app/.expo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Backend specific
+backend/dist/
+backend/.env
+
+# Web interface specific
+web-interface/build/
+web-interface/.env
+
+# Git backup
+web-interface/.git_backup/
