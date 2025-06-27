@@ -14,7 +14,7 @@ router.get('/webrtc-config', (req: Request, res: Response) => {
 });
 
 // Get session info by code
-router.get('/:code', (req: Request, res: Response): void => {
+router.get('/:code', (req: Request, res: Response) => {
   try {
     const { code } = req.params;
     
@@ -43,7 +43,7 @@ router.get('/:code', (req: Request, res: Response): void => {
     }
 
     // Don't expose sensitive session details
-    res.json({
+    return res.json({
       success: true,
       data: {
         id: session.id,
@@ -55,7 +55,7 @@ router.get('/:code', (req: Request, res: Response): void => {
       }
     } as ApiResponse);
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
       error: 'Failed to get session info'
     } as ApiResponse);

@@ -86,12 +86,12 @@ router.post('/verify', (req: Request, res: Response) => {
     // This will throw if token is invalid
     const decoded = require('../utils/auth').verifyToken(token);
 
-    res.json({
+    return res.json({
       success: true,
       data: decoded
     } as ApiResponse);
   } catch (error) {
-    res.status(401).json({
+    return res.status(401).json({
       success: false,
       error: 'Invalid token'
     } as ApiResponse);

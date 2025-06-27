@@ -14,8 +14,10 @@ export const config = {
         'http://localhost:3000', 
         'http://localhost:3001', 
         'http://localhost:8081',
-        'http://192.168.137.3:3000',
-        'http://192.168.137.3:3001'
+        'http://192.168.1.5:3000',
+        'http://192.168.1.5:3001',
+        'http://192.168.1.4:3000',
+        'http://192.168.1.4:3001'
       ],
   
   // WebRTC Configuration
