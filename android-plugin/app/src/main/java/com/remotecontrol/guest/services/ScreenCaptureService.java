@@ -68,13 +68,15 @@ public class ScreenCaptureService extends Service {
     
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        // Start foreground service immediately to avoid RemoteServiceException
+        startForeground(NOTIFICATION_ID, createNotification());
+        
         if (intent != null) {
             int resultCode = intent.getIntExtra("resultCode", -1);
             Intent data = intent.getParcelableExtra("data");
             
             if (resultCode != -1 && data != null) {
                 startScreenCapture(resultCode, data);
-                startForeground(NOTIFICATION_ID, createNotification());
             }
         }
         

@@ -10,6 +10,7 @@ import { errorHandler } from './middleware/errorHandler';
 import { rateLimitMiddleware } from './middleware/rateLimiter';
 import authRoutes from './routes/authRoutes';
 import sessionRoutes from './routes/sessionRoutes';
+import { setupAndroidWebSocketServer } from './services/androidWebSocketService';
 
 const app = express();
 const server = createServer(app);
@@ -81,6 +82,9 @@ app.get('/health', (req, res) => {
 // Socket.IO setup
 setupSocketHandlers(io);
 
+// Android WebSocket server setup
+setupAndroidWebSocketServer(server);
+
 // Error handling
 app.use(errorHandler);
 
@@ -88,7 +92,8 @@ const PORT = config.PORT || 3001;
 
 server.listen(PORT, () => {
   console.log(`🚀 Remote Control Server running on port ${PORT}`);
-  console.log(`📡 WebSocket server ready`);
+  console.log(`📡 Socket.IO server ready`);
+  console.log(`🤖 Android WebSocket server ready at /android`);
   console.log(`🔒 CORS enabled for: ${config.ALLOWED_ORIGINS.join(', ')}`);
 });
 

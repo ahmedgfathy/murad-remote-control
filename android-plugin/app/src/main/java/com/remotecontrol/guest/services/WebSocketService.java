@@ -20,7 +20,7 @@ import java.util.Map;
 public class WebSocketService extends Service {
     
     private static final String TAG = "WebSocketService";
-    private static final String SERVER_URL = "ws://192.168.1.5:3001"; // Updated to current Mac IP
+    private static final String SERVER_URL = "ws://192.168.1.5:3001/android"; // Updated to use Android WebSocket path
     
     private WebSocketClient webSocketClient;
     private Gson gson;
